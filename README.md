@@ -165,8 +165,7 @@ python src/bot.py
 - **Vector Retriever:** `FAISS`
     - Fast local similarity search
 - **LLM (Answer Generation):**
-    - *Default:* OpenAI GPT-3.5 (reliable, simple)
-    - *Alt:* HuggingFace Inference (optional, dependent on quota/availability)
+    -  HuggingFace Inference (reliable, simple)
 - **Modularity:** All RAG logic in `rag_core.py`, bot logic in `bot.py`. Easy to swap out LLM backends.
 
 ---
@@ -211,7 +210,4 @@ This project fulfills the assignment with:
 - Source-based answers & summaries
 - Fast FAISS retrieval
 - Open, clean, modular code
-- Configurable LLM backend (OpenAI/HF)
-```
-
-
+- Configurable LLM backend (HF)
