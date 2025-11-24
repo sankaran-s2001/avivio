@@ -57,8 +57,7 @@ A lightweight Retrieval-Augmented Generation (RAG) chatbot that answers knowledg
               │ Telegram Response  │
               └────────────────────┘
     ```
-
----
+```
 
 ## 📁 Project Structure
 
