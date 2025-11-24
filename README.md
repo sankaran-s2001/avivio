@@ -18,6 +18,25 @@ A lightweight Retrieval-Augmented Generation (RAG) chatbot that answers knowledg
 
 ---
 
+## 🧰 Tech Stack & Components Used:
+
+```
+
+| Category           | Name / Version                                    | Purpose                                   |
+|--------------------|---------------------------------------------------|-------------------------------------------|
+| Language           | Python 3.10+                                      | Core implementation                       |
+| Embeddings Model   | sentence-transformers/all-MiniLM-L6-v2            | Text chunk embedding for RAG              |
+| Vector Store       | FAISS                                              | Efficient similarity search               |
+| LLM (Inference)    | Meta Llama-3 3B Instruct via HuggingFace Inference| Response generation for retrieved context |
+| Tokenizer          | HuggingFace Tokenizers                            | Used internally by HF models              |
+| RAG Pipeline       | Custom retrieval + generation logic               | Chunking, embedding, search, synthesis    |
+| Telegram Integration| python-telegram-bot                              | Chatbot interface                         |
+| Serialization      | Pickle (.pkl) files                               | Embedding cache, metadata, chunks         |
+| Environment        | .env + python-dotenv                              | API key management                        |
+| Utilities          | tqdm, dotenv, os, pickle                          | Helper functionality                      |
+
+```
+
 ## 🏗️ System Architecture
 
 ```
@@ -195,6 +214,4 @@ This project fulfills the assignment with:
 - Configurable LLM backend (OpenAI/HF)
 ```
 
-
-***
 
