@@ -20,7 +20,7 @@ A lightweight Retrieval-Augmented Generation (RAG) chatbot that answers knowledg
 
 ## 🧰 Tech Stack & Components Used:
 
-```
+
 
 | Category           | Name / Version                                    | Purpose                                   |
 |--------------------|---------------------------------------------------|-------------------------------------------|
@@ -35,7 +35,7 @@ A lightweight Retrieval-Augmented Generation (RAG) chatbot that answers knowledg
 | Environment        | .env + python-dotenv                              | API key management                        |
 | Utilities          | tqdm, dotenv, os, pickle                          | Helper functionality                      |
 
-```
+---
 
 ## 🏗️ System Architecture
 
